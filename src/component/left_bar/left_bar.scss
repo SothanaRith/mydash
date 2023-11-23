@@ -1,0 +1,45 @@
+.leftbar {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: rgb(79, 79, 228);
+    height: auto;
+    width: 10vw;
+    color: rgb(254, 254, 253);
+
+
+    .list {
+        margin-top: 50%;
+        display: flex;
+        flex-direction: column;
+
+        a {
+            text-decoration: none;
+            color: rgb(10, 25, 17);
+
+            h4 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                height: 50px;
+                width: 180px;
+                &:hover {
+                    background-color: #fff;
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+            h5{
+                background-color: #fff;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 50px;
+                width: 180px;
+            }
+        }
+
+    }
+}

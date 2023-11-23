@@ -1,0 +1,11 @@
+.home{
+    height:93vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    .intro{
+        line-height: 5px;
+        padding: 20px;
+    }
+}

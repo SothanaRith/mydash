@@ -1,0 +1,35 @@
+.Login{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        span{
+            color: red;
+        }
+
+        input{
+            margin: 20px;
+            width: 300px;
+            height: 40px;
+        }
+        button{
+            margin-top: 20px;
+            padding: 10px;
+            cursor: pointer;
+            color: white;
+            background-color: rgb(9, 156, 107);
+            font-weight: bold;
+            width: 150px;
+            border: none;
+
+        }
+    }
+    
+}

@@ -1,0 +1,29 @@
+@keyframes upDownLoop {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+       /* Adjust the value as needed */
+    }
+  }
+  
+  .total {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    animation: upDownLoop 2s infinite ease-in-out ; 
+    height: 50vh;
+    width: 80vw;
+    
+
+  }
+  
+  .cards {
+    width: 300px;
+    margin: 10px;
+    animation: upDownLoop 2s infinite ease-in-out; /* Adjust the duration and animation properties as needed */
+  }
+  .count-animation {
+    animation: decoration 5s ease-in-out; /* Adjust the duration and animation properties as needed */
+  }
